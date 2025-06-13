@@ -1,5 +1,13 @@
 instrucciones para configurar el proyecto
 
-  npm install --save-dev playwright @cucumber/cucumber cucumber-html-reporter @playwright/test @swc-node/register @types/node
+Si el sistema es nuevo, sera necesario instalar dependencias de sistema:
+
+  npx playwright install-deps
+
+Luego es necesario installar playwright:
 
   npx playwright install
+
+Para ejecutar los test:
+
+  npm run test
